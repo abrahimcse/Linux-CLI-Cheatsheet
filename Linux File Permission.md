@@ -107,3 +107,44 @@ chmod 755 filename
 ```
 chmod 600 filename
 ```
+**Special Permissions**
+
+In addition to standard permissions, Linux has special permissions:
+
+- `Setuid (s):` When set on an executable file, the program runs with the permissions of the file owner.
+- `Setgid (s):` When set on a directory, new files inherit the group of the directory, rather than the group of the user who created the file.
+- `Sticky Bit (t):` When set on a directory, only the owner of a file can delete or rename it within that directory.
+
+To set special permissions, use the chmod command with a 4 for setuid, 2 for setgid, and 1 for sticky bit:
+
+- `Setuid:`
+```
+chmod u+s filename
+```
+- `Setgid:`
+```
+chmod g+s directoryname
+```
+- `Sticky Bit:`
+
+```
+chmod +t directoryname
+```
+
+**Viewing and Modifying Ownership**
+
+You can view and change file ownership with the following commands:
+
+- `View ownership:`
+```
+ls -l filename
+```
+
+- `Change ownership:`
+```
+chown new_owner:new_group filename
+```
+
+**Conclusion**
+
+Understanding and managing file permissions is crucial for security and proper functionality in Linux environments. By using the `ls` and `chmod` commands effectively, you can ensure that files and directories are accessible only to the appropriate users.
