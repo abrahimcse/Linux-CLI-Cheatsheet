@@ -1,4 +1,4 @@
-# Install and Configuration `NGINEX` on Ubuntu 20.04 & 22.04
+# Install and Configuration `NGINX` on Ubuntu 20.04 & 22.04
 
 ## Installation and Configuration
     
