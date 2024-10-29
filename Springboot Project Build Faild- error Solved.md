@@ -38,20 +38,3 @@ sudo mvn clean install
 ```
 sudo systemctl stop NGINX
 ```
-
-# Node.js Installation problem `libnode-dev package (version 12.x)` first Remove than install
-
-`1. libnode-dev package (version 12.x)`
-```
-sudo apt remove nodejs libnode-dev -y
-sudo apt autoremove -y
-sudo apt clean
-sudo apt update
-```
-
-`2. Step 2: Reinstall Node.js v18.x`
-```
-curl -fsSL https://deb.nodesource.com/setup_18.x | sudo -E bash -
-sudo apt install nodejs -y
-node -v
-```
