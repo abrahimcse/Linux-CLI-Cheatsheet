@@ -5,7 +5,7 @@ SSH Key-Based Authentication is a secure way to log into a server using a pair o
 `1.Generate SSH Key Pair:`
 
  ```
-ssh-keygen -t rsa
+ssh-keygen -t rsa -b 4096 
 ```
 `2.Copy Public Key to Remote Server:`
 ```
