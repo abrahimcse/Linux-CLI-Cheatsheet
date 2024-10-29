@@ -1,4 +1,6 @@
 # Install and Configuration `NGINX` on Ubuntu 20.04 & 22.04
+`NGINX :` A high -performance web server that servers content to users and can handle large number of concurrent connection
+![](https://github.com/abrahimcse/Linux-CLI-Cheatsheet/blob/main/Images/NGINX.jpg)
 
 ## Installation and Configuration
     
