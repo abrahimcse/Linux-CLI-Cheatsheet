@@ -2,6 +2,8 @@
 
 In Linux, file permissions are critical for controlling access to files and directories. Each file and directory has associated permissions that dictate who can read, write, or execute the file. Here’s a detailed overview of Linux file permissions, including how to view and modify them.
 
+![](https://github.com/abrahimcse/Linux-CLI-Cheatsheet/blob/main/Images/Linux%20File%20Permission.jpg)
+
 **Understanding Linux File Permissions**
 
 
