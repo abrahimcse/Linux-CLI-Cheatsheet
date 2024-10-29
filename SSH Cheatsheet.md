@@ -1,10 +1,8 @@
 # SSH Cheatsheet
 
-
-![](https://github.com/abrahimcse/Linux-CLI-Cheatsheet/blob/main/Images/SSH%20CheatSheet.png)
-
 Here's a comprehensive `SSH cheatsheet` with essential commands and options that cover basic usage, advanced techniques, and tips for managing SSH connections:
 
+![](https://github.com/abrahimcse/Linux-CLI-Cheatsheet/blob/main/Images/SSH%20CheatSheet.png)
 
 ## Basic SSH Command
 
