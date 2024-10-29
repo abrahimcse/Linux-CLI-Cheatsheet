@@ -1,5 +1,7 @@
 ## LVM (Logical Volume Manager)
 
+![](https://github.com/abrahimcse/Linux-CLI-Cheatsheet/blob/main/Images/LVM%20Overview.jpg)
+
 To extend your existing storage using LVM (Logical Volume Manager) when you `add a new hard disk`, you'll need to follow a series of steps. This includes creating `physical volumes`, adding them to a `volume group`, and then `extending your logical volume`. Here's a detailed step-by-step guide for easy implementation:
 
 **Step 1: Verify the New Hard Disk**
